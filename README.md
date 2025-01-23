@@ -15,7 +15,7 @@
         header {
             background-color: #333;
             color: #fff;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
             text-align: center;
         }
         nav {
@@ -37,18 +37,48 @@
             color: #fff;
         }
         .container {
-            padding: 1rem;
+            padding: 2rem;
             max-width: 800px;
             margin: auto;
+        }
+        section {
+            margin-bottom: 2rem;
         }
         footer {
             text-align: center;
             padding: 1rem 0;
             background-color: #333;
             color: #fff;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            color: #0077b5;
+        }
+        .resume {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .resume a {
+            text-decoration: none;
+            color: #333;
+            border: 1px solid #333;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 1rem;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .resume a:hover {
+            background-color: #333;
+            color: #fff;
         }
     </style>
 </head>
@@ -87,13 +117,21 @@
     </section>
 
     <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me on <a href="https://github.com/yourgithubusername" target="_blank">GitHub</a> or connect with me on <a href="mailto:yourname@email.com">email</a>.</p>
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:abasyal@bu.edu">abasyal@bu.edu</a></p>
+        <p>GitHub: <a href="https://github.com/anuradhabasyal" target="_blank">github.com/anuradhabasyal</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/anuradha-basyal-45311a188/" target="_blank">linkedin.com/in/anuradha-basyal</a></p>
+    </section>
+
+    <section class="resume">
+        <h2>Resume</h2>
+        <p>Click below to view or download my resume:</p>
+        <a href="/path/to/your-resume.pdf" target="_blank">View Resume</a>
     </section>
 </div>
 
 <footer>
-    <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+    <p>&copy; 2025 Anuradha Basyal. All Rights Reserved.</p>
 </footer>
 
 </body>
