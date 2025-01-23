@@ -85,8 +85,8 @@
 <body>
 
 <header>
-    <h1>Welcome to My Personal Website</h1>
-    <p>Your one-stop destination to explore my projects and portfolio.</p>
+    <h1>Welcome to My Personal Website: A work in progress...</h1>
+    <p>Thanks for stopping by!</p>
 </header>
 
 <nav>
